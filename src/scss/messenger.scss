@@ -1,0 +1,16 @@
+.messenger {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__form {
+    position: fixed!important;
+    bottom: 0;
+    z-index: 2;
+
+    align-self: center;
+    min-width: 320px!important;
+    max-width: 500px;
+    margin-bottom: 10px!important;
+  }
+}

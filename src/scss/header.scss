@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+
+  &__heading {
+    margin-bottom: 20px;
+  }
+}
+
+.app-logo {
+  margin-bottom: 10px;
+}
+
+.welcome {
+  text-transform: uppercase;
+}

@@ -1,0 +1,19 @@
+.message {
+  padding: 10px;
+  margin-bottom: 20px;
+
+  width: fit-content;
+
+  background-color: #e9e9eb!important;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__user {
+    margin-left: auto;
+    background-color: #0b81ff!important;
+    color: white!important;
+    text-align: left;
+  }
+}
