@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 10px;
+
+  color: white;
+
+  &__heading {
+    margin-bottom: 10px;
+  }
+}
+
+.app-logo {
+  margin-bottom: 10px;
+}
+
+.welcome {
+  text-transform: uppercase;
+}

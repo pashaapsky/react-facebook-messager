@@ -1,0 +1,36 @@
+.messenger {
+
+}
+
+.form {
+  position: fixed!important;
+  bottom: 0;
+  left: 50%;
+
+  transform: translate(-50%, 0);
+  margin-bottom: 10px;
+  padding: 20px;
+
+  width: 90%;
+
+  z-index: 2;
+
+  background-color: #c4c4eb;
+
+  &__control {
+    display: flex!important;
+    flex-direction: row!important;
+
+
+  }
+
+  &__input {
+    flex-grow: 1;
+    margin: 0!important;
+  }
+
+  &__icon {
+
+  }
+}
+
