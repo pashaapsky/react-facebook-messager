@@ -13,7 +13,7 @@ function Header({userName}) {
             <h1 className="header__heading">Message app</h1>
 
             <h2 className="header__heading">Welcome
-                <span className="welcome">&nbsp;{userName}</span>!
+                <span className="welcome">&nbsp;{userName || "guest"}</span>!
             </h2>
         </header>
     );

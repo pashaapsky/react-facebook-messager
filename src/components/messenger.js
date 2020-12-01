@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {Button} from "@material-ui/core";
 import {FormControl} from '@material-ui/core';
 import '../scss/messenger.scss';
 import InputLabel from "@material-ui/core/InputLabel";
@@ -38,23 +37,22 @@ function Messenger({userName}) {
 
     return (
         <div className="messenger">
-            <FormControl className="messenger__form">
-                <InputLabel htmlFor="my-input">Enter a message</InputLabel>
+            <form className="messenger__form form">
+                <FormControl className="form__control">
+                    <InputLabel className="form__label" htmlFor="my-input">Enter a message</InputLabel>
 
-                <Input
-                    id="my-input"
-                    value={input}
-                    onChange={(event) => setInput(event.target.value)}
-                />
+                    <Input
+                        className="form__input"
+                        id="my-input"
+                        value={input}
+                        onChange={(event) => setInput(event.target.value)}
+                    />
 
-                <IconButton
-                    type="submit"
-                    variant="contained"
-                    color="secondary"
-                    onClick={sendMessage}
-                >Send Message <SendIcon />
-                </IconButton>
-            </FormControl>
+                    <IconButton className="form__icon" type="submit" variant="contained" color="secondary" onClick={sendMessage}>
+                        <SendIcon />
+                    </IconButton>
+                </FormControl>
+            </form>
 
             <FlipMove>
                 {

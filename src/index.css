@@ -35,12 +35,13 @@ code {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
+  background-color: #002651;
 }
 
 .fixed-container {
   width: 100%;
   max-width: 1024px;
-  padding: 0 10px;
   margin: 0 auto;
 }
 
